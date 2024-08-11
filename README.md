@@ -1,6 +1,7 @@
 # Trading Strategy Factory
-
 **Trading Strategy Factory** is a Python codebase designed to assist you at any stage of your quant trading journey: from data import to live trading, including robustness testing... (All the possibilities are detailed here.)
+![Live Trading Results](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/raw/main/Results/Live%20Trading.png)
+
 
 <br>
 
