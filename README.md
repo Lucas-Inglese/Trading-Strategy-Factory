@@ -51,14 +51,14 @@ The best way to ensure that everything was set up correctly is to run one of the
 
 - **Data Management**: Import and transform data using the scripts in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Data).
 
-- **Features and Target Engineering**: Create new variables focused on specific characteristics using the provided files.
+- **Features and Target Engineering**: Create new variables focused on specific characteristics using the provided [file](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/DataPreprocessing.py).
 
-- **Trading Strategy Structure**: Find examples of how to create your trading strategies within this folder.
+- **Trading Strategy Structure**: Find examples of how to create your trading strategies within this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Strategies).
 
-- **Walk-Forward Optimization**: Optimize the parameters of your trading strategies over time using this class. Examples of utilization can be found in the corresponding folder.
+- **Walk-Forward Optimization**: Optimize the parameters of your trading strategies over time using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/WalkForwardOptimization.py). Examples of utilization can be found in the corresponding [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(WFO)).
 
-- **Robustness Testing**: Use CPCV (Combinatorial Purged Cross Validation) on your trading strategies to calculate the probability of success and the probability of overfitting using this class. Examples of utilization are available in this folder.
+- **Robustness Testing**: Use CPCV (Combinatorial Purged Cross Validation) on your trading strategies to calculate the probability of success and the probability of overfitting using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/CombinatorialPurgedCV.py). Examples of utilization are available in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(CPCV)).
 
-- **Monte Carlo Simulation**: Run Monte Carlo simulations on your trading strategies to test them on generated data using this class. Examples of utilization can be found in the corresponding folder.
+- **Monte Carlo Simulation**: Run Monte Carlo simulations on your trading strategies to test them on generated data using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/MonteCarlo.py). Examples of utilization can be found in the corresponding [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(MC)).
 
-- **Live Trading**: Implement strategies that have successfully passed your selection process into live trading by placing your live trading signals in this file and creating similar files as those in this folder.
+- **Live Trading**: Implement strategies that have successfully passed your selection process into live trading by placing your live trading signals in this [files](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/LiveTradingSignal.py) and creating similar files as those in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/LiveTrading).
