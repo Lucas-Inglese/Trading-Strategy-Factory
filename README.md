@@ -17,3 +17,19 @@ Depending on the platform you are using to code, you can create a new environmen
 
 ```bash
 python -m venv environment_name
+```
+
+### 🔹 Install the Requirements
+Select the appropriate environment and install the required dependencies for this project. Note: You need a Windows environment as the MetaTrader5 library only works on Windows.
+```bash
+pip install -r requirements.txt
+```
+
+
+### 🔹 Add Path to the Interpreter
+You need to add the path to your folder in the interpreter path. The best option is to use software like PyCharm, which allows you to easily add a new path to your interpreter.
+If you're unable to add the path using a software, you need to add this code at the beginning of each file you run (be sure to use the correct path to the folder):
+```py
+import sys
+sys.path.append('/path/to/the/folder/Trading-Strategy-Factory')
+```
