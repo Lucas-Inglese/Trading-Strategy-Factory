@@ -3,6 +3,7 @@
 **Trading Strategy Factory** is a Python codebase designed to assist you at any stage of your quant trading journey: from data import to live trading, including robustness testing... (All the possibilities are detailed here.)
 
 <br>
+
 ## Setup the Environment
 
 After completing the setup, you should be able to run any code from this repository, which contains only Python code.
@@ -34,3 +35,10 @@ If you're unable to add the path using a software, you need to add this code at 
 import sys
 sys.path.append('/path/to/the/folder/Trading-Strategy-Factory')
 ```
+
+### 🔹 MetaTrader 5 Configuration
+You can use the MetaQuotes demo account that you will have during your first connection or connect your own demo account to perform your tests.  
+**Note**: Do not forget to activate the algorithmic trading authorization.
+
+### 🔹 Run a File
+The best way to ensure that everything was set up correctly is to run one of the live trading files.
