@@ -67,10 +67,14 @@ The best way to ensure that everything was set up correctly is to run one of the
 <br>
 <br>
 
-## Backtesting Output
+## Backtesting Outputs
 - Result from the walk-forward optimization: more than 10 metrics and the following graphs
 ![Walk forward](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/Walk%20Forward.png)
+<br>
+
 - Result from the robustness testing: Probability of overfiting, degradation between the train and test sets and the following graphs:
 ![Robustness testing](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/CPCV.png)
-- Result from the walk-forward optimization: The 3 following graphs
+<br>
+
+- Result from the Monte Carlo simulation: The 3 following graphs
 ![Monte Carlo](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/Monte%20Carlo%20Simulations.png)
