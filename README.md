@@ -2,6 +2,7 @@
 
 **Trading Strategy Factory** is a Python codebase designed to assist you at any stage of your quant trading journey: from data import to live trading, including robustness testing... (All the possibilities are detailed here.)
 
+<br>
 ## Setup the Environment
 
 After completing the setup, you should be able to run any code from this repository, which contains only Python code.
