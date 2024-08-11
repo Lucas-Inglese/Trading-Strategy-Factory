@@ -56,9 +56,21 @@ The best way to ensure that everything was set up correctly is to run one of the
 - **Trading Strategy Structure**: Find examples of how to create your trading strategies within this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Strategies).
 
 - **Walk-Forward Optimization**: Optimize the parameters of your trading strategies over time using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/WalkForwardOptimization.py). Examples of utilization can be found in the corresponding [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(WFO)).
+  
 
 - **Robustness Testing**: Use CPCV (Combinatorial Purged Cross Validation) on your trading strategies to calculate the probability of success and the probability of overfitting using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/CombinatorialPurgedCV.py). Examples of utilization are available in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(CPCV)).
 
 - **Monte Carlo Simulation**: Run Monte Carlo simulations on your trading strategies to test them on generated data using this [class](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/MonteCarlo.py). Examples of utilization can be found in the corresponding [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Launching%20(MC)).
 
 - **Live Trading**: Implement strategies that have successfully passed your selection process into live trading by placing your live trading signals in this [files](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Quantreo/LiveTradingSignal.py) and creating similar files as those in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/LiveTrading).
+
+<br>
+<br>
+
+## Backtesting Output
+- Result from the walk-forward optimization: more than 10 metrics and the following graphs
+![Walk forward](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/Walk%20Forward.png)
+- Result from the robustness testing: Probability of overfiting, degradation between the train and test sets and the following graphs:
+![Robustness testing](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/CPCV.png)
+- Result from the walk-forward optimization: The 3 following graphs
+![Monte Carlo](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/blob/main/Results/Monte%20Carlo%20Simulations.png)
