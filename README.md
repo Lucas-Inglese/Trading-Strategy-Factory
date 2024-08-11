@@ -1,5 +1,5 @@
 # Trading Strategy Factory
-**Trading Strategy Factory** is a Python codebase designed to assist you at any stage of your quant trading journey: from data import to live trading, including robustness testing... (All the possibilities are detailed here.)
+**Trading Strategy Factory** is a Python codebase designed to assist you at any stage of your quant trading journey: from data import to live trading, including robustness testing... (All the possibilities are detailed below.)
 ![Live Trading Results](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/raw/main/Results/Live%20Trading.png)
 
 
@@ -49,7 +49,7 @@ The best way to ensure that everything was set up correctly is to run one of the
 
 ## Features
 
-- **Data Management**: Import and transform data using the scripts in this folder.
+- **Data Management**: Import and transform data using the scripts in this [folder](https://github.com/Lucas-Inglese/Trading-Strategy-Factory/tree/main/Data).
 
 - **Features and Target Engineering**: Create new variables focused on specific characteristics using the provided files.
 
